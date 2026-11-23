@@ -1,0 +1,9 @@
+,filas que la violan,%,resultado
+"Category ∈ {True, Fake}",0,0.0,✅
+Topic dentro de los temas de su versión,0,0.0,✅
+Id único dentro de su partición,0,0.0,✅
+Text no vacío,0,0.0,✅
+Text con al menos una letra,0,0.0,✅
+Text no es solo una URL,0,0.0,✅
+Headline no vacío cuando existe,0,0.0,✅
+Link con formato http(s):// cuando existe,43,2.79,❌

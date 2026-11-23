@@ -221,3 +221,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Material del curso (no se versiona)
+s1_kdd.pdf
+479277994.pdf
+
+# Derivados regenerables (no se versionan)
+modelos/
+data/processed/

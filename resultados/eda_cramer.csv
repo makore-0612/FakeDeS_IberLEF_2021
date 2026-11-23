@@ -1,0 +1,7 @@
+,,categorías,V de Cramér,"p (χ², orientativo)",% celdas con esperado < 5
+train,fuente,122.0,0.996,6.166229618910876e-77,85.2
+train,Topic,9.0,0.099,0.5748477731618842,0.0
+development,fuente,72.0,1.0,4.353201419720522e-29,90.3
+development,Topic,9.0,0.079,0.9856247612434662,11.1
+test,fuente,200.0,0.956,7.627802435977166e-31,95.0
+test,Topic,7.0,0.015,0.9999494993276931,28.6

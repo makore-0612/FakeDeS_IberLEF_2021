@@ -1,0 +1,91 @@
+{
+ "elegida": {
+  "representacion": "palabras (1,2) + caracteres (2,5)",
+  "estructura": "solo texto",
+  "sin_medio": true,
+  "min_df": 20,
+  "minusculas": true,
+  "estilo": false,
+  "k_chi2": null,
+  "modelo": "LR",
+  "valor": 1.0
+ },
+ "cv_elegida": {
+  "F1_fake_mean": 0.729788435470452,
+  "F1_fake_std": 0.09505085584306007,
+  "F1_macro_mean": 0.7517995393519229,
+  "accuracy_mean": 0.7552531116833459
+ },
+ "regla_original": {
+  "representacion": "palabras (1,2) + caracteres (2,5)",
+  "estructura": "solo texto",
+  "sin_medio": true,
+  "min_df": 20,
+  "minusculas": true,
+  "estilo": false,
+  "k_chi2": 1000,
+  "modelo": "SVM",
+  "valor": 0.1
+ },
+ "cv_regla_original": {
+  "F1_fake_mean": 0.7021275791118965,
+  "F1_fake_std": 0.12010630494197136,
+  "F1_macro_mean": 0.7235748280154356,
+  "accuracy_mean": 0.7275965012210932
+ },
+ "mejor_media": {
+  "representacion": "palabras (1,2) + caracteres (2,5)",
+  "estructura": "solo texto",
+  "sin_medio": true,
+  "min_df": 20,
+  "minusculas": true,
+  "estilo": false,
+  "k_chi2": 20000,
+  "modelo": "SVM",
+  "valor": 0.1
+ },
+ "cv_mejor_media": {
+  "F1_fake_mean": 0.7326006193120477,
+  "F1_fake_std": 0.09265329414015387,
+  "F1_macro_mean": 0.754062147813175,
+  "accuracy_mean": 0.7574753339055681
+ },
+ "mejores_por_modelo": {
+  "LR": {
+   "representacion": "palabras (1,2) + caracteres (2,5)",
+   "estructura": "solo texto",
+   "sin_medio": true,
+   "min_df": 5,
+   "minusculas": true,
+   "estilo": false,
+   "k_chi2": null,
+   "modelo": "LR",
+   "valor": 10.0
+  },
+  "SVM": {
+   "representacion": "palabras (1,2) + caracteres (2,5)",
+   "estructura": "solo texto",
+   "sin_medio": true,
+   "min_df": 20,
+   "minusculas": true,
+   "estilo": false,
+   "k_chi2": 20000,
+   "modelo": "SVM",
+   "valor": 0.1
+  },
+  "CNB": {
+   "representacion": "palabras (1,1)",
+   "estructura": "solo texto",
+   "sin_medio": true,
+   "min_df": 20,
+   "minusculas": false,
+   "estilo": false,
+   "k_chi2": null,
+   "modelo": "CNB",
+   "valor": 1.0
+  }
+ },
+ "cv_replica_bow": 0.7071865371277049,
+ "regla": "revisada: dentro de un SE y mejor que la réplica BoW; sin χ² ni estilo; LR; menos atributos",
+ "semilla": 42
+}

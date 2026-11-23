@@ -1,0 +1,10 @@
+Hallazgo,Dimensión,Detección,Evidencia,Acción,Textos afectados
+Casi duplicados train ↔ test,Unicidad,Coseno TF-IDF ≥ 0.8,EDA 12.1; Tabla 2.1,Eliminar la copia de train,4
+Casi duplicados train ↔ development y dentro de development,Unicidad,Coseno TF-IDF ≥ 0.8,Tabla 2.1,Eliminar la copia de development,6
+Espacios repetidos y espacios duros,Consistencia,Expresión regular,EDA 13.1,Normalizar espacios,338
+Titular repetido al inicio del texto (v1.0),Consistencia,Comparación de prefijo,EDA 5.5,Quitar el prefijo,937
+Números y URLs sin anonimizar (v2.0),Consistencia,Expresión regular,EDA 5.5,Reemplazar por *NUMBER* y *URL*,499
+Titular faltante solo en falsas (test),Completitud,Nulos por clase,EDA 5.2,Cadena vacía + bandera de análisis,72
+Nombre o dominio del medio en el texto,Exactitud (atajo),Léxico de fuentes de train,EDA 14; Tabla 4.3,Versión con los nombres de medio borrados,216
+"Enlace ""Perma"" y fuente que delatan la clase",Validez,Reglas de dominio,EDA 5.6 y 8,Excluir Link y Source de la entrada,1533
+Textos largos atípicos,Exactitud,IQR por versión,EDA 9.4,Conservar (legítimos),0

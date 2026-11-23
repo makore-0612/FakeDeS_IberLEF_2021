@@ -1,0 +1,161 @@
+modelo,representación,hiperparámetros,fold,F1_fake,F1_macro,accuracy,F1_true,esquema,etapa
+LR,10 rasgos de estilo,LR C=0.01,0,0.7857142857142857,0.7642857142857142,0.7662337662337663,0.7428571428571429,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=0.1,0,0.7673469387755102,0.7523370638578012,0.7532467532467533,0.7373271889400922,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=1,0,0.7385892116182573,0.726760669157545,0.7272727272727273,0.7149321266968326,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=10,0,0.7385892116182573,0.726760669157545,0.7272727272727273,0.7149321266968326,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=0.01,1,0.5555555555555556,0.6126401630988787,0.6210526315789474,0.6697247706422018,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=0.1,1,0.5308641975308642,0.5911201721599275,0.6,0.6513761467889908,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=1,1,0.5487804878048781,0.6030939476061428,0.6105263157894737,0.6574074074074074,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=10,1,0.5487804878048781,0.6030939476061428,0.6105263157894737,0.6574074074074074,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=0.01,2,0.7295597484276729,0.7588685441645754,0.7624309392265194,0.7881773399014779,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=0.1,2,0.7341772151898734,0.7641474311243485,0.7679558011049724,0.7941176470588235,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=1,2,0.7341772151898734,0.7641474311243485,0.7679558011049724,0.7941176470588235,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=10,2,0.7341772151898734,0.7641474311243485,0.7679558011049724,0.7941176470588235,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=0.01,3,0.6,0.6210526315789473,0.6222222222222222,0.6421052631578947,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=0.1,3,0.6071428571428571,0.6316964285714286,0.6333333333333333,0.65625,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=1,3,0.6081871345029239,0.6268448900027848,0.6277777777777778,0.6455026455026455,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=10,3,0.6,0.6210526315789473,0.6222222222222222,0.6421052631578947,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=0.01,4,0.6896551724137931,0.698088455772114,0.6983240223463687,0.7065217391304348,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=0.1,4,0.7126436781609196,0.7204522738630685,0.7206703910614525,0.7282608695652174,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=1,4,0.7167630057803468,0.7259490704577409,0.7262569832402235,0.7351351351351352,fold_grupo,referencia lineal
+LR,10 rasgos de estilo,LR C=10,4,0.7209302325581395,0.7314328582145536,0.7318435754189944,0.7419354838709677,fold_grupo,referencia lineal
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",0,0.7325102880658436,0.7178533175489035,0.7186147186147186,0.7031963470319634,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",0,0.7219917012448133,0.7094121402151667,0.70995670995671,0.6968325791855203,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",0,0.7160493827160493,0.7004904447826822,0.7012987012987013,0.684931506849315,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 1}",0,0.7295081967213115,0.713377951571665,0.7142857142857143,0.6972477064220184,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 5}",0,0.7213114754098361,0.7046924349526245,0.7056277056277056,0.6880733944954128,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 20}",0,0.7107438016528925,0.6962809917355371,0.696969696969697,0.6818181818181818,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",0,0.7008547008547008,0.6969185784975258,0.696969696969697,0.6929824561403509,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",0,0.6949152542372882,0.6881655917204139,0.6883116883116883,0.6814159292035398,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",0,0.7166666666666667,0.7051801801801802,0.7056277056277056,0.6936936936936937,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": 0.5, ""min_samples_leaf"": 1}",0,0.6952789699570815,0.6926176509174053,0.6926406926406926,0.6899563318777293,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": 0.5, ""min_samples_leaf"": 5}",0,0.6949152542372882,0.6881655917204139,0.6883116883116883,0.6814159292035398,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": 0.5, ""min_samples_leaf"": 20}",0,0.6949152542372882,0.6881655917204139,0.6883116883116883,0.6814159292035398,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",0,0.6812227074235808,0.6839589931967689,0.683982683982684,0.6866952789699571,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",0,0.6695278969957081,0.666641677755496,0.6666666666666666,0.6637554585152838,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",0,0.7166666666666667,0.7051801801801802,0.7056277056277056,0.6936936936936937,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": 0.5, ""min_samples_leaf"": 1}",0,0.6869565217391305,0.6883058470764618,0.6883116883116883,0.6896551724137931,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": 0.5, ""min_samples_leaf"": 5}",0,0.6952789699570815,0.6926176509174053,0.6926406926406926,0.6899563318777293,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": 0.5, ""min_samples_leaf"": 20}",0,0.7058823529411765,0.6966911764705883,0.696969696969697,0.6875,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",0,0.6896551724137931,0.6883058470764618,0.6883116883116883,0.6869565217391305,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",0,0.6919831223628692,0.6837693389592123,0.683982683982684,0.6755555555555556,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",0,0.7166666666666667,0.7051801801801802,0.7056277056277056,0.6936936936936937,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": 0.5, ""min_samples_leaf"": 1}",0,0.6896551724137931,0.6883058470764618,0.6883116883116883,0.6869565217391305,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": 0.5, ""min_samples_leaf"": 5}",0,0.6810344827586207,0.679647676161919,0.6796536796536796,0.6782608695652174,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": 0.5, ""min_samples_leaf"": 20}",0,0.7058823529411765,0.6966911764705883,0.696969696969697,0.6875,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",1,0.3356643356643357,0.4674102269038978,0.5,0.5991561181434599,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",1,0.3380281690140845,0.4715350929104036,0.5052631578947369,0.6050420168067226,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",1,0.323943661971831,0.46029115871700793,0.49473684210526314,0.5966386554621849,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 1}",1,0.2571428571428571,0.4119047619047619,0.45263157894736844,0.5666666666666667,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 5}",1,0.2695035460992908,0.4192706015015283,0.45789473684210524,0.5690376569037657,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 20}",1,0.2571428571428571,0.4119047619047619,0.45263157894736844,0.5666666666666667,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",1,0.34965034965034963,0.47862264317960523,0.5105263157894737,0.6075949367088608,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",1,0.3698630136986301,0.4883503102681185,0.5157894736842106,0.6068376068376068,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",1,0.3120567375886525,0.4530994985014392,0.48947368421052634,0.5941422594142259,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": 0.5, ""min_samples_leaf"": 1}",1,0.32167832167832167,0.45619781062819037,0.48947368421052634,0.5907172995780591,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": 0.5, ""min_samples_leaf"": 5}",1,0.3333333333333333,0.46327683615819204,0.49473684210526314,0.5932203389830508,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": 0.5, ""min_samples_leaf"": 20}",1,0.2714285714285714,0.42321428571428565,0.4631578947368421,0.575,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",1,0.4195804195804196,0.5346847245581423,0.5631578947368421,0.6497890295358649,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",1,0.34965034965034963,0.47862264317960523,0.5105263157894737,0.6075949367088608,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",1,0.31654676258992803,0.46117794561031666,0.5,0.6058091286307054,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": 0.5, ""min_samples_leaf"": 1}",1,0.35714285714285715,0.4910714285714286,0.5263157894736842,0.625,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": 0.5, ""min_samples_leaf"": 5}",1,0.36231884057971014,0.4993412384716732,0.5368421052631579,0.6363636363636364,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": 0.5, ""min_samples_leaf"": 20}",1,0.2695035460992908,0.4192706015015283,0.45789473684210524,0.5690376569037657,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",1,0.4246575342465753,0.5328415876361082,0.5578947368421052,0.6410256410256411,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",1,0.36619718309859156,0.4940229612971949,0.5263157894736842,0.6218487394957983,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",1,0.3262411347517731,0.46437579750140956,0.5,0.602510460251046,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": 0.5, ""min_samples_leaf"": 1}",1,0.35294117647058826,0.49614271938283516,0.5368421052631579,0.639344262295082,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": 0.5, ""min_samples_leaf"": 5}",1,0.352112676056338,0.4827790271037993,0.5157894736842106,0.6134453781512605,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": 0.5, ""min_samples_leaf"": 20}",1,0.2589928057553957,0.4158034568196065,0.45789473684210524,0.5726141078838174,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",2,0.6666666666666666,0.7071197411003236,0.712707182320442,0.7475728155339806,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",2,0.6666666666666666,0.7071197411003236,0.712707182320442,0.7475728155339806,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",2,0.6838709677419355,0.7235779959482624,0.7292817679558011,0.7632850241545893,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 1}",2,0.675,0.7087871287128713,0.712707182320442,0.7425742574257426,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 5}",2,0.675,0.7087871287128713,0.712707182320442,0.7425742574257426,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 20}",2,0.6794871794871795,0.7183843664426188,0.7237569060773481,0.7572815533980582,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",2,0.7169811320754716,0.7476531276140905,0.7513812154696132,0.7783251231527094,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",2,0.7169811320754716,0.7476531276140905,0.7513812154696132,0.7783251231527094,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",2,0.6967741935483871,0.7348605267258843,0.7403314917127072,0.7729468599033816,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": 0.5, ""min_samples_leaf"": 1}",2,0.7044025157232704,0.7364377110636056,0.7403314917127072,0.7684729064039408,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": 0.5, ""min_samples_leaf"": 5}",2,0.7080745341614907,0.7371218441951732,0.7403314917127072,0.7661691542288557,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": 0.5, ""min_samples_leaf"": 20}",2,0.6967741935483871,0.7348605267258843,0.7403314917127072,0.7729468599033816,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",2,0.7133757961783439,0.7469318005281964,0.7513812154696132,0.7804878048780488,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",2,0.6962025316455697,0.7304542069992555,0.7348066298342542,0.7647058823529411,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",2,0.6967741935483871,0.7348605267258843,0.7403314917127072,0.7729468599033816,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": 0.5, ""min_samples_leaf"": 1}",2,0.7006369426751592,0.7356843249961162,0.7403314917127072,0.7707317073170732,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": 0.5, ""min_samples_leaf"": 5}",2,0.6878980891719745,0.7244368494640361,0.7292817679558011,0.7609756097560976,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": 0.5, ""min_samples_leaf"": 20}",2,0.6883116883116883,0.7287712287712288,0.7348066298342542,0.7692307692307693,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",2,0.6918238993710691,0.7252222945131208,0.7292817679558011,0.7586206896551724,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",2,0.717948717948718,0.7521782424695046,0.7569060773480663,0.7864077669902912,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",2,0.6967741935483871,0.7348605267258843,0.7403314917127072,0.7729468599033816,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": 0.5, ""min_samples_leaf"": 1}",2,0.7051282051282052,0.7409136171272094,0.7458563535911602,0.7766990291262136,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": 0.5, ""min_samples_leaf"": 5}",2,0.6967741935483871,0.7348605267258843,0.7403314917127072,0.7729468599033816,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": 0.5, ""min_samples_leaf"": 20}",2,0.6883116883116883,0.7287712287712288,0.7348066298342542,0.7692307692307693,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",3,0.6107784431137725,0.6369954391734666,0.6388888888888888,0.6632124352331606,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",3,0.593939393939394,0.6251748251748253,0.6277777777777778,0.6564102564102564,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",3,0.5903614457831325,0.6199229909328035,0.6222222222222222,0.6494845360824743,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 1}",3,0.591715976331361,0.6152297159143716,0.6166666666666667,0.6387434554973822,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 5}",3,0.591715976331361,0.6152297159143716,0.6166666666666667,0.6387434554973822,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 20}",3,0.5868263473053892,0.6146566969687568,0.6166666666666667,0.6424870466321243,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",3,0.6060606060606061,0.6363636363636364,0.6388888888888888,0.6666666666666666,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",3,0.5903614457831325,0.6199229909328035,0.6222222222222222,0.6494845360824743,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",3,0.5952380952380952,0.6205357142857143,0.6222222222222222,0.6458333333333334,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": 0.5, ""min_samples_leaf"": 1}",3,0.6272189349112426,0.6486880014870349,0.65,0.6701570680628273,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": 0.5, ""min_samples_leaf"": 5}",3,0.6309523809523809,0.6540178571428572,0.6555555555555556,0.6770833333333334,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": 0.5, ""min_samples_leaf"": 20}",3,0.6153846153846154,0.6375352396294804,0.6388888888888888,0.6596858638743456,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",3,0.5802469135802469,0.6184062850729517,0.6222222222222222,0.6565656565656566,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",3,0.5903614457831325,0.6199229909328035,0.6222222222222222,0.6494845360824743,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",3,0.6107784431137725,0.6369954391734666,0.6388888888888888,0.6632124352331606,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": 0.5, ""min_samples_leaf"": 1}",3,0.6107784431137725,0.6369954391734666,0.6388888888888888,0.6632124352331606,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": 0.5, ""min_samples_leaf"": 5}",3,0.6071428571428571,0.6316964285714286,0.6333333333333333,0.65625,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": 0.5, ""min_samples_leaf"": 20}",3,0.6035502958579881,0.626382477771926,0.6277777777777778,0.6492146596858639,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",3,0.5882352941176471,0.609907120743034,0.6111111111111112,0.631578947368421,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",3,0.5868263473053892,0.6146566969687568,0.6166666666666667,0.6424870466321243,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",3,0.6071428571428571,0.6316964285714286,0.6333333333333333,0.65625,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": 0.5, ""min_samples_leaf"": 1}",3,0.5903614457831325,0.6199229909328035,0.6222222222222222,0.6494845360824743,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": 0.5, ""min_samples_leaf"": 5}",3,0.6024096385542169,0.6311017264936033,0.6333333333333333,0.6597938144329897,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": 0.5, ""min_samples_leaf"": 20}",3,0.6035502958579881,0.626382477771926,0.6277777777777778,0.6492146596858639,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",4,0.735632183908046,0.742816091954023,0.7430167597765364,0.75,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",4,0.7241379310344828,0.7316341829085458,0.7318435754189944,0.7391304347826086,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",4,0.7272727272727273,0.7317682317682318,0.7318435754189944,0.7362637362637363,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 1}",4,0.7292817679558011,0.7262228048818553,0.7262569832402235,0.7231638418079096,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 5}",4,0.7292817679558011,0.7262228048818553,0.7262569832402235,0.7231638418079096,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 3, ""max_features"": 0.5, ""min_samples_leaf"": 20}",4,0.7374301675977654,0.7374301675977654,0.7374301675977654,0.7374301675977654,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",4,0.7209302325581395,0.7314328582145536,0.7318435754189944,0.7419354838709677,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",4,0.7100591715976331,0.7253999561691868,0.7262569832402235,0.7407407407407407,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",4,0.7209302325581395,0.7314328582145536,0.7318435754189944,0.7419354838709677,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": 0.5, ""min_samples_leaf"": 1}",4,0.7294117647058823,0.7423654568210263,0.7430167597765364,0.7553191489361702,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": 0.5, ""min_samples_leaf"": 5}",4,0.7058823529411765,0.7199624530663329,0.7206703910614525,0.7340425531914894,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 5, ""max_features"": 0.5, ""min_samples_leaf"": 20}",4,0.72,0.726120218579235,0.7262569832402235,0.73224043715847,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",4,0.7134502923976608,0.7257091034180817,0.7262569832402235,0.7379679144385026,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",4,0.7294117647058823,0.7423654568210263,0.7430167597765364,0.7553191489361702,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",4,0.72,0.726120218579235,0.7262569832402235,0.73224043715847,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": 0.5, ""min_samples_leaf"": 1}",4,0.7251461988304093,0.7369046502173437,0.7374301675977654,0.7486631016042781,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": 0.5, ""min_samples_leaf"": 5}",4,0.7142857142857143,0.7308270676691729,0.7318435754189944,0.7473684210526316,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": 8, ""max_features"": 0.5, ""min_samples_leaf"": 20}",4,0.7241379310344828,0.7316341829085458,0.7318435754189944,0.7391304347826086,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",4,0.7368421052631579,0.7481001970166057,0.7486033519553073,0.7593582887700535,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5}",4,0.7176470588235294,0.7311639549436796,0.7318435754189944,0.7446808510638298,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",4,0.7126436781609196,0.7204522738630685,0.7206703910614525,0.7282608695652174,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": 0.5, ""min_samples_leaf"": 1}",4,0.7218934911242604,0.7366081212235058,0.7374301675977654,0.7513227513227513,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": 0.5, ""min_samples_leaf"": 5}",4,0.7218934911242604,0.7366081212235058,0.7374301675977654,0.7513227513227513,fold_grupo,rejilla
+RF,10 rasgos de estilo,"{""max_depth"": null, ""max_features"": 0.5, ""min_samples_leaf"": 20}",4,0.7241379310344828,0.7316341829085458,0.7318435754189944,0.7391304347826086,fold_grupo,rejilla
+diagnóstico,10 rasgos de estilo,RF,0,0.6896551724137931,0.6883058470764618,0.6883116883116883,0.6869565217391305,fold_grupo,diagnóstico folds
+diagnóstico,10 rasgos de estilo,LR sobre rasgos,0,0.7857142857142857,0.7642857142857142,0.7662337662337663,0.7428571428571429,fold_grupo,diagnóstico folds
+diagnóstico,10 rasgos de estilo,RF,1,0.4246575342465753,0.5328415876361082,0.5578947368421052,0.6410256410256411,fold_grupo,diagnóstico folds
+diagnóstico,10 rasgos de estilo,LR sobre rasgos,1,0.5555555555555556,0.6126401630988787,0.6210526315789474,0.6697247706422018,fold_grupo,diagnóstico folds
+diagnóstico,10 rasgos de estilo,RF,2,0.6918238993710691,0.7252222945131208,0.7292817679558011,0.7586206896551724,fold_grupo,diagnóstico folds
+diagnóstico,10 rasgos de estilo,LR sobre rasgos,2,0.7295597484276729,0.7588685441645754,0.7624309392265194,0.7881773399014779,fold_grupo,diagnóstico folds
+diagnóstico,10 rasgos de estilo,RF,3,0.5882352941176471,0.609907120743034,0.6111111111111112,0.631578947368421,fold_grupo,diagnóstico folds
+diagnóstico,10 rasgos de estilo,LR sobre rasgos,3,0.6,0.6210526315789473,0.6222222222222222,0.6421052631578947,fold_grupo,diagnóstico folds
+diagnóstico,10 rasgos de estilo,RF,4,0.7368421052631579,0.7481001970166057,0.7486033519553073,0.7593582887700535,fold_grupo,diagnóstico folds
+diagnóstico,10 rasgos de estilo,LR sobre rasgos,4,0.6896551724137931,0.698088455772114,0.6983240223463687,0.7065217391304348,fold_grupo,diagnóstico folds
+diagnóstico,10 rasgos de estilo,RF,0,0.7724867724867724,0.7771063304058228,0.7772020725388601,0.7817258883248731,fold_aleatorio,diagnóstico folds
+diagnóstico,10 rasgos de estilo,LR sobre rasgos,0,0.7319587628865979,0.7305627147766323,0.7305699481865285,0.7291666666666666,fold_aleatorio,diagnóstico folds
+diagnóstico,10 rasgos de estilo,RF,1,0.7537688442211056,0.7444519896781203,0.7447916666666666,0.7351351351351352,fold_aleatorio,diagnóstico folds
+diagnóstico,10 rasgos de estilo,LR sobre rasgos,1,0.7373737373737373,0.7289019224503095,0.7291666666666666,0.7204301075268817,fold_aleatorio,diagnóstico folds
+diagnóstico,10 rasgos de estilo,RF,2,0.7619047619047619,0.7655677655677655,0.765625,0.7692307692307693,fold_aleatorio,diagnóstico folds
+diagnóstico,10 rasgos de estilo,LR sobre rasgos,2,0.7422680412371134,0.7395550732501357,0.7395833333333334,0.7368421052631579,fold_aleatorio,diagnóstico folds
+diagnóstico,10 rasgos de estilo,RF,3,0.7403314917127072,0.7544021990583241,0.7552083333333334,0.7684729064039408,fold_aleatorio,diagnóstico folds
+diagnóstico,10 rasgos de estilo,LR sobre rasgos,3,0.8105263157894737,0.8124796527400977,0.8125,0.8144329896907216,fold_aleatorio,diagnóstico folds
+diagnóstico,10 rasgos de estilo,RF,4,0.8102564102564103,0.8072446072446072,0.8072916666666666,0.8042328042328042,fold_aleatorio,diagnóstico folds
+diagnóstico,10 rasgos de estilo,LR sobre rasgos,4,0.7628865979381443,0.7603906673901248,0.7604166666666666,0.7578947368421053,fold_aleatorio,diagnóstico folds

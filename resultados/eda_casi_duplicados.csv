@@ -1,0 +1,12 @@
+Id_a,particion_a,clase_a,Id_b,particion_b,clase_b,coseno,levenshtein,misma clase,cruza particiones
+12,train,Fake,433,test,Fake,0.986,96.0,✅,⚠️
+54,train,Fake,345,test,Fake,0.996,95.5,✅,⚠️
+101,train,Fake,187,test,Fake,0.971,90.4,✅,⚠️
+172,train,True,177,development,True,0.982,97.5,✅,⚠️
+252,train,Fake,19,development,Fake,0.989,96.7,✅,⚠️
+278,train,Fake,65,development,Fake,0.965,97.5,✅,⚠️
+462,train,True,267,development,True,0.977,96.0,✅,⚠️
+514,train,True,225,development,True,0.983,97.0,✅,⚠️
+608,train,True,427,test,True,0.977,90.1,✅,⚠️
+129,development,Fake,147,development,Fake,1.0,100.0,✅,
+109,test,True,353,test,Fake,0.962,84.8,❌,
