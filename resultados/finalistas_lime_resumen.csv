@@ -1,0 +1,13 @@
+id_unico,caso,sistema,prob de fake (texto completo),R² local de LIME,palabras en la noticia
+tes_552,falsa detectada por los tres,3. Stacking LR (LR + BETO),0.9791177064981715,0.31648179011406796,263
+tes_552,falsa detectada por los tres,E3 / E4 (pesos no negativos),0.9772069405042327,0.60570157543291,263
+tes_257,falsa larga detectada por los tres,3. Stacking LR (LR + BETO),0.9061259295705237,0.2843754285556116,672
+tes_257,falsa larga detectada por los tres,E3 / E4 (pesos no negativos),0.8987291605224257,0.45749822142408436,672
+tes_6,falsa que E4 detecta y el sistema 3 no,3. Stacking LR (LR + BETO),0.4739599962002763,0.6555460059907144,123
+tes_6,falsa que E4 detecta y el sistema 3 no,E3 / E4 (pesos no negativos),0.8613831296064752,0.7042455073586897,123
+tes_111,falsa que ninguno detecta,3. Stacking LR (LR + BETO),0.08422597149322888,0.8221502341330188,764
+tes_111,falsa que ninguno detecta,E3 / E4 (pesos no negativos),0.06331278442178365,0.8027641021632943,764
+tes_142,verdadera que los tres marcan como falsa,3. Stacking LR (LR + BETO),0.962467140588618,0.285124214272943,274
+tes_142,verdadera que los tres marcan como falsa,E3 / E4 (pesos no negativos),0.9616755587583858,0.42703830641734297,274
+tes_146,verdadera que los tres aciertan,3. Stacking LR (LR + BETO),0.06506327169705396,0.5504909090519061,1314
+tes_146,verdadera que los tres aciertan,E3 / E4 (pesos no negativos),0.05704834222154414,0.7720113356113881,1314

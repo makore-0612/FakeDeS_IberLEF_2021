@@ -1,0 +1,87 @@
+{
+ "bases_E3": [
+  "LR texto",
+  "XGBoost",
+  "RF estilo",
+  "BETO",
+  "HistGradientBoosting (caracteres)",
+  "XGBoost (estilo)",
+  "HistGradientBoosting (palabras + estilo)",
+  "SVM-RBF (embeddings)",
+  "kNN (embeddings)",
+  "Naive Bayes (palabras)",
+  "BERTIN",
+  "XLM-RoBERTa"
+ ],
+ "sistema_3": {
+  "entradas": [
+   "LR texto",
+   "BETO"
+  ],
+  "C": 10.0,
+  "pesos": [
+   5.127557313194876,
+   2.5809240975283245
+  ],
+  "intercepto": -3.0581613827976533
+ },
+ "E3": {
+  "C": 1.0,
+  "pesos": [
+   1.0681180283886755,
+   1.1577637780187797,
+   0.0,
+   0.7126774990368906,
+   0.8840574924114282,
+   0.0,
+   0.0,
+   0.4401408376989649,
+   0.0,
+   0.0029130798139269656,
+   2.710860827587317,
+   0.0
+  ],
+  "intercepto": -2.9857869505862253
+ },
+ "E4": {
+  "umbral_test": 0.44,
+  "umbrales_por_fold": [
+   0.45,
+   0.5,
+   0.46,
+   0.41,
+   0.49
+  ]
+ },
+ "E1": {
+  "umbral_test": 0.37,
+  "umbrales_por_fold": [
+   0.45,
+   0.46,
+   0.38,
+   0.33,
+   0.4
+  ]
+ },
+ "config_xgb": {
+  "representacion": "palabras",
+  "max_depth": 2,
+  "learning_rate": 0.05,
+  "n_estimators": 200
+ },
+ "boosting_por_vista": {
+  "caracteres": "HistGradientBoosting",
+  "estilo": "XGBoost",
+  "palabras + estilo": "HistGradientBoosting"
+ },
+ "columnas_boosting": [
+  "HistGradientBoosting (caracteres)",
+  "XGBoost (estilo)",
+  "HistGradientBoosting (palabras + estilo)"
+ ],
+ "eleccion_embeddings_y_nb": {
+  "SVM-RBF": 100.0,
+  "kNN": 31.0,
+  "Naive Bayes": 3.0
+ }
+}

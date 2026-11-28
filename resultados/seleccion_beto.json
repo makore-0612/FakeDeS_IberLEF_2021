@@ -1,0 +1,151 @@
+{
+ "bases": [
+  "LR texto",
+  "XGBoost",
+  "RF estilo",
+  "BETO"
+ ],
+ "config_lr": {
+  "representacion": "palabras (1,2) + caracteres (2,5)",
+  "estructura": "solo texto",
+  "sin_medio": true,
+  "min_df": 20,
+  "minusculas": true,
+  "estilo": false,
+  "k_chi2": null,
+  "modelo": "LR",
+  "valor": 1.0
+ },
+ "config_rf": {
+  "modelo": "RF",
+  "parametros": {
+   "max_depth": 3,
+   "max_features": "sqrt",
+   "min_samples_leaf": 20
+  }
+ },
+ "config_xgb": {
+  "representacion": "palabras",
+  "max_depth": 2,
+  "learning_rate": 0.05,
+  "n_estimators": 200
+ },
+ "beto": {
+  "modelo": "dccuchile/bert-base-spanish-wwm-uncased",
+  "tokens": "128 cabeza + 382 cola",
+  "epocas": 4,
+  "learning_rate": 2e-05,
+  "lote_efectivo": 16,
+  "semillas": [
+   42,
+   43,
+   44
+  ]
+ },
+ "meta_modelos": {
+  "3. Stacking LR (LR + BETO)": {
+   "entradas": [
+    "LR texto",
+    "BETO"
+   ],
+   "meta": "LR",
+   "C": 10.0,
+   "pesos": {
+    "LR texto": 5.127557313194876,
+    "BETO": 2.5809240975283245
+   },
+   "intercepto": -3.0581613827976533
+  },
+  "4. Stacking LR (4 bases)": {
+   "entradas": [
+    "LR texto",
+    "XGBoost",
+    "RF estilo",
+    "BETO"
+   ],
+   "meta": "LR",
+   "C": 0.1,
+   "pesos": {
+    "LR texto": 1.2889914346542812,
+    "XGBoost": 1.2140112852880445,
+    "RF estilo": 0.2405754575122829,
+    "BETO": 1.9446908518944477
+   },
+   "intercepto": -1.8353406625689548
+  },
+  "5. Stacking MLP (4 bases)": {
+   "entradas": [
+    "LR texto",
+    "XGBoost",
+    "RF estilo",
+    "BETO"
+   ],
+   "meta": "MLP",
+   "capas": [
+    4
+   ],
+   "alpha": 1.0
+  },
+  "6. Stacking LR (4 bases + longitud)": {
+   "entradas": [
+    "LR texto",
+    "XGBoost",
+    "RF estilo",
+    "BETO",
+    "est_log_palabras"
+   ],
+   "meta": "LR",
+   "C": 0.01,
+   "pesos": {
+    "LR texto": 0.47284883785480064,
+    "XGBoost": 0.302702178626303,
+    "RF estilo": 0.023976543513272476,
+    "BETO": 0.5722516311206942,
+    "est_log_palabras": -0.10656102272219214
+   },
+   "intercepto": 0.03549869264557204
+  },
+  "7. Stacking MLP (4 bases + longitud)": {
+   "entradas": [
+    "LR texto",
+    "XGBoost",
+    "RF estilo",
+    "BETO",
+    "est_log_palabras"
+   ],
+   "meta": "MLP",
+   "capas": [
+    4
+   ],
+   "alpha": 1.0
+  },
+  "Stacking viejo (LR + XGBoost + RF)": {
+   "entradas": [
+    "LR texto",
+    "XGBoost",
+    "RF estilo"
+   ],
+   "meta": "LR",
+   "C": 1.0,
+   "pesos": {
+    "LR texto": 4.537821153823808,
+    "XGBoost": 2.1029860152869184,
+    "RF estilo": 0.0753614322260499
+   },
+   "intercepto": -3.0749703261620787
+  }
+ },
+ "cv_esquema_b": {
+  "LR texto (principal)": 0.729788435470452,
+  "XGBoost": 0.6854636447984122,
+  "RF estilo": 0.6082996370971351,
+  "1. BETO solo": 0.655908161627921,
+  "2. Soft voting LR + BETO": 0.6816337581962344,
+  "3. Stacking LR (LR + BETO)": 0.7463247127932613,
+  "4. Stacking LR (4 bases)": 0.7298803109418247,
+  "5. Stacking MLP (4 bases)": 0.734349802946879,
+  "6. Stacking LR (4 bases + longitud)": 0.7077916295500482,
+  "7. Stacking MLP (4 bases + longitud)": 0.7230615927980757,
+  "Stacking viejo (LR + XGBoost + RF)": 0.7312149172269606
+ }
+}

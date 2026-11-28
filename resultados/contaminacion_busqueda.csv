@@ -1,0 +1,11 @@
+fuente,dominio,clase en el corpus,noticias en el corpus,resultados de la búsqueda,páginas del dominio (primeros 100),índice parcial,ejemplo del dominio
+el dizque,eldizque.com,Fake,134,6,6,True,https://www.eldizque.com/por-austeridad-republicana-se-suspende-la-navidad/
+el ruinaversal,elruinaversal.com,Fake,93,2,2,True,https://elruinaversal.com/2018/02/16/epn-propone-deportar-un-gringo-de-mexico-por-cada-mexicano-que-trump-expulse-de-eu/
+hay noticia,haynoticia.es,Fake,38,19,18,True,https://haynoticia.es/jubilado-despierta-anestesia-grita-bingo/
+censura 0,censura0.com,Fake,36,8433,1,True,http://censura0.com/category/argentina-sin-censura/page/26/
+la voz popular,lavozpopular.com,Fake,24,1,0,True,
+el país,elpais.com,True,74,6752,43,True,https://elpais.com/elpais/2019/09/03/opinion/1567532926_387009.html
+el universal,eluniversal.com.mx,True,68,2484,52,True,http://archivo.eluniversal.com.mx/espectaculos/88398.html
+excelsior,excelsior.com.mx,True,45,989,2,True,http://www.excelsior.com.mx/adrenalina/2014/01/23/940032
+forbes,forbes.com.mx,True,33,2016,33,True,https://www.forbes.com.mx/forbes-life/rosalia-reina-en-un-grammy-latino-con-regueton-y-gestos-de-protesta-por-chile/
+huffpost,huffingtonpost.com.mx,True,25,758,7,True,http://www.huffingtonpost.com.mx/2017/11/05/invasion-unica-forma-de-neutralizar-a-norcorea-eu_a_23267318/

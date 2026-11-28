@@ -1,0 +1,27 @@
+{
+ "bases": [
+  "LR texto",
+  "XGBoost",
+  "RF estilo"
+ ],
+ "config_xgb": {
+  "representacion": "palabras",
+  "max_depth": 2,
+  "learning_rate": 0.05,
+  "n_estimators": 200
+ },
+ "C_meta": 100.0,
+ "pesos_meta": {
+  "LR texto": 6.3522932814612885,
+  "XGBoost": 2.0228764026127117,
+  "RF estilo": -0.9314272446271308
+ },
+ "intercepto_meta": -3.3945639770917726,
+ "cv_anidada": {
+  "LR texto": 0.729788435470452,
+  "XGBoost": 0.6772625202413548,
+  "RF estilo": 0.6082996370971351,
+  "soft voting": 0.6984841913125848,
+  "stacking": 0.6842319178873865
+ }
+}

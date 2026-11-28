@@ -294,3 +294,4 @@ dependencies:
   - zstd=1.5.7
   - pip:
       - stopwordsiso==0.7.1
+      - xgboost==3.4.1

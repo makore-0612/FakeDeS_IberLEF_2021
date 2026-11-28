@@ -1,0 +1,10 @@
+sistema,referencia,diferencia F1 fake,IC95 pareado,remuestreos en que gana,McNemar (solo a / solo b),p McNemar
+E3. Pesos no negativos,3. Stacking LR + BETO,0.014,"[-0.025, +0.050]",774 de 1000,44 / 48,0.755
+E4. E3 + umbral anidado,3. Stacking LR + BETO,0.019,"[-0.019, +0.056]",855 de 1000,48 / 53,0.691
+E4. E3 + umbral anidado,E3. Pesos no negativos,0.005,"[-0.007, +0.020]",798 de 1000,8 / 9,1.0
+3. Stacking LR + BETO,LR texto (principal),0.059,"[+0.020, +0.100]",998 de 1000,53 / 41,0.256
+3. Stacking LR + BETO,"LR texto, umbral 0.34",0.001,"[-0.038, +0.038]",529 de 1000,72 / 51,0.071
+E3. Pesos no negativos,LR texto (principal),0.073,"[+0.024, +0.122]",997 de 1000,73 / 65,0.551
+E3. Pesos no negativos,"LR texto, umbral 0.34",0.015,"[-0.020, +0.050]",803 de 1000,67 / 50,0.139
+E4. E3 + umbral anidado,LR texto (principal),0.079,"[+0.029, +0.125]",998 de 1000,80 / 73,0.628
+E4. E3 + umbral anidado,"LR texto, umbral 0.34",0.02,"[-0.014, +0.053]",877 de 1000,66 / 50,0.163

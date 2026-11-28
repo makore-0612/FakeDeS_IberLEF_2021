@@ -1,0 +1,12 @@
+# Paquetes para beto_entrenar.py, instalados con pip dentro del entorno fakedes (no van en environment.yml).
+# PyTorch con CUDA se instala desde el índice de PyTorch:
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+#   pip install -r requirements_beto.txt
+# Probado en Linux con NVIDIA GeForce RTX 3050 Ti Laptop (4 GB), driver 580.159.03.
+torch==2.11.0
+transformers==5.24.1
+accelerate==1.16.0
+tokenizers==0.23.3
+safetensors==0.8.0
+huggingface-hub==2.5.0
+sentencepiece==0.2.3

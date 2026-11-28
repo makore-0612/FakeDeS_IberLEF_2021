@@ -1,0 +1,145 @@
+id_unico,caso,sistema,rango,palabra,peso hacia Fake
+tes_552,falsa detectada por los tres,3. Stacking LR (LR + BETO),1,que,0.006047420108772524
+tes_552,falsa detectada por los tres,3. Stacking LR (LR + BETO),2,espera,0.004228764327807955
+tes_552,falsa detectada por los tres,3. Stacking LR (LR + BETO),3,ya,0.004113033386604224
+tes_552,falsa detectada por los tres,3. Stacking LR (LR + BETO),4,se,0.003310778743858212
+tes_552,falsa detectada por los tres,3. Stacking LR (LR + BETO),5,pues,0.0030596105504390255
+tes_552,falsa detectada por los tres,3. Stacking LR (LR + BETO),6,esto,0.0029422674345685822
+tes_552,falsa detectada por los tres,3. Stacking LR (LR + BETO),7,toda,0.0025307893041596006
+tes_552,falsa detectada por los tres,3. Stacking LR (LR + BETO),8,NUMBER,-0.001928075698123249
+tes_552,falsa detectada por los tres,3. Stacking LR (LR + BETO),9,explicó,-0.0012480146606898624
+tes_552,falsa detectada por los tres,3. Stacking LR (LR + BETO),10,proceso,-0.0011525968565349153
+tes_552,falsa detectada por los tres,3. Stacking LR (LR + BETO),11,entre,-0.0010931925081303644
+tes_552,falsa detectada por los tres,3. Stacking LR (LR + BETO),12,dio,-0.0009644005236516782
+tes_552,falsa detectada por los tres,E3 / E4 (pesos no negativos),1,Si,0.008320286941181462
+tes_552,falsa detectada por los tres,E3 / E4 (pesos no negativos),2,que,0.007894096780071186
+tes_552,falsa detectada por los tres,E3 / E4 (pesos no negativos),3,se,0.006400054146728686
+tes_552,falsa detectada por los tres,E3 / E4 (pesos no negativos),4,espera,0.004775871060524053
+tes_552,falsa detectada por los tres,E3 / E4 (pesos no negativos),5,ya,0.004688561635723852
+tes_552,falsa detectada por los tres,E3 / E4 (pesos no negativos),6,así,0.004304875293159256
+tes_552,falsa detectada por los tres,E3 / E4 (pesos no negativos),7,nos,0.0039758129068728915
+tes_552,falsa detectada por los tres,E3 / E4 (pesos no negativos),8,ha,0.003915270007160681
+tes_552,falsa detectada por los tres,E3 / E4 (pesos no negativos),9,siendo,0.0036227828453040682
+tes_552,falsa detectada por los tres,E3 / E4 (pesos no negativos),10,quisimos,0.0034560979716444303
+tes_552,falsa detectada por los tres,E3 / E4 (pesos no negativos),11,NUMBER,-0.00142021346267125
+tes_552,falsa detectada por los tres,E3 / E4 (pesos no negativos),12,explicó,-0.0011074637198359757
+tes_257,falsa larga detectada por los tres,3. Stacking LR (LR + BETO),1,que,0.029609792941658736
+tes_257,falsa larga detectada por los tres,3. Stacking LR (LR + BETO),2,esto,0.023053454962675433
+tes_257,falsa larga detectada por los tres,3. Stacking LR (LR + BETO),3,ya,0.02086053965517078
+tes_257,falsa larga detectada por los tres,3. Stacking LR (LR + BETO),4,Ayer,-0.02038822356094426
+tes_257,falsa larga detectada por los tres,3. Stacking LR (LR + BETO),5,5G,0.017608963686141628
+tes_257,falsa larga detectada por los tres,3. Stacking LR (LR + BETO),6,demás,0.016879469643708837
+tes_257,falsa larga detectada por los tres,3. Stacking LR (LR + BETO),7,en,-0.016173353760759537
+tes_257,falsa larga detectada por los tres,3. Stacking LR (LR + BETO),8,personas,-0.013418927425946948
+tes_257,falsa larga detectada por los tres,3. Stacking LR (LR + BETO),9,una,-0.01320781233616473
+tes_257,falsa larga detectada por los tres,3. Stacking LR (LR + BETO),10,la,-0.01308162278986902
+tes_257,falsa larga detectada por los tres,3. Stacking LR (LR + BETO),11,abrumadora,-0.012115474398207727
+tes_257,falsa larga detectada por los tres,3. Stacking LR (LR + BETO),12,nos,0.009864086585922692
+tes_257,falsa larga detectada por los tres,E3 / E4 (pesos no negativos),1,en,-0.02025674991740531
+tes_257,falsa larga detectada por los tres,E3 / E4 (pesos no negativos),2,COPIADO,0.016976554474426447
+tes_257,falsa larga detectada por los tres,E3 / E4 (pesos no negativos),3,el,-0.011710583717143702
+tes_257,falsa larga detectada por los tres,E3 / E4 (pesos no negativos),4,que,0.011555406527848346
+tes_257,falsa larga detectada por los tres,E3 / E4 (pesos no negativos),5,con,-0.010091835357891252
+tes_257,falsa larga detectada por los tres,E3 / E4 (pesos no negativos),6,Ayer,-0.009335355058003402
+tes_257,falsa larga detectada por los tres,E3 / E4 (pesos no negativos),7,POR,0.008112689879901592
+tes_257,falsa larga detectada por los tres,E3 / E4 (pesos no negativos),8,se,0.006302910672720716
+tes_257,falsa larga detectada por los tres,E3 / E4 (pesos no negativos),9,esto,0.005909415752371667
+tes_257,falsa larga detectada por los tres,E3 / E4 (pesos no negativos),10,ya,0.004664059331480039
+tes_257,falsa larga detectada por los tres,E3 / E4 (pesos no negativos),11,a,0.0036540000922635437
+tes_257,falsa larga detectada por los tres,E3 / E4 (pesos no negativos),12,nos,0.0033669908298844435
+tes_6,falsa que E4 detecta y el sistema 3 no,3. Stacking LR (LR + BETO),1,mujeres,-0.12113069777865124
+tes_6,falsa que E4 detecta y el sistema 3 no,3. Stacking LR (LR + BETO),2,recientemente,-0.1206045689244498
+tes_6,falsa que E4 detecta y el sistema 3 no,3. Stacking LR (LR + BETO),3,mamografías,-0.09023976508976099
+tes_6,falsa que E4 detecta y el sistema 3 no,3. Stacking LR (LR + BETO),4,NUMBER,-0.0894703161399474
+tes_6,falsa que E4 detecta y el sistema 3 no,3. Stacking LR (LR + BETO),5,vacuna,-0.08277140926753003
+tes_6,falsa que E4 detecta y el sistema 3 no,3. Stacking LR (LR + BETO),6,19,-0.06703644363153538
+tes_6,falsa que E4 detecta y el sistema 3 no,3. Stacking LR (LR + BETO),7,para,-0.06621169499293501
+tes_6,falsa que E4 detecta y el sistema 3 no,3. Stacking LR (LR + BETO),8,Creemos,0.0508174009609103
+tes_6,falsa que E4 detecta y el sistema 3 no,3. Stacking LR (LR + BETO),9,habiendo,0.048503292997087596
+tes_6,falsa que E4 detecta y el sistema 3 no,3. Stacking LR (LR + BETO),10,que,0.0343072312343291
+tes_6,falsa que E4 detecta y el sistema 3 no,3. Stacking LR (LR + BETO),11,Boooomm,0.025702838855660194
+tes_6,falsa que E4 detecta y el sistema 3 no,3. Stacking LR (LR + BETO),12,Moderna,0.013792758596551184
+tes_6,falsa que E4 detecta y el sistema 3 no,E3 / E4 (pesos no negativos),1,NUMBER,-0.03339666010922322
+tes_6,falsa que E4 detecta y el sistema 3 no,E3 / E4 (pesos no negativos),2,que,0.0243507077188979
+tes_6,falsa que E4 detecta y el sistema 3 no,E3 / E4 (pesos no negativos),3,mujeres,-0.019971518914796205
+tes_6,falsa que E4 detecta y el sistema 3 no,E3 / E4 (pesos no negativos),4,en,-0.018218161956622
+tes_6,falsa que E4 detecta y el sistema 3 no,E3 / E4 (pesos no negativos),5,mamografías,-0.0167472057646819
+tes_6,falsa que E4 detecta y el sistema 3 no,E3 / E4 (pesos no negativos),6,recientemente,-0.01451026780833678
+tes_6,falsa que E4 detecta y el sistema 3 no,E3 / E4 (pesos no negativos),7,habiendo,0.012263919299204723
+tes_6,falsa que E4 detecta y el sistema 3 no,E3 / E4 (pesos no negativos),8,vacuna,-0.011734464167348324
+tes_6,falsa que E4 detecta y el sistema 3 no,E3 / E4 (pesos no negativos),9,médicos,-0.010513072046681083
+tes_6,falsa que E4 detecta y el sistema 3 no,E3 / E4 (pesos no negativos),10,Boooomm,0.01011612060928772
+tes_6,falsa que E4 detecta y el sistema 3 no,E3 / E4 (pesos no negativos),11,Creemos,0.008772859654574323
+tes_6,falsa que E4 detecta y el sistema 3 no,E3 / E4 (pesos no negativos),12,Con,-0.00866188032519758
+tes_111,falsa que ninguno detecta,3. Stacking LR (LR + BETO),1,NUMBER,-0.1339581718430702
+tes_111,falsa que ninguno detecta,3. Stacking LR (LR + BETO),2,en,-0.027076105148527714
+tes_111,falsa que ninguno detecta,3. Stacking LR (LR + BETO),3,casos,-0.02550578732915627
+tes_111,falsa que ninguno detecta,3. Stacking LR (LR + BETO),4,el,-0.018483794690086874
+tes_111,falsa que ninguno detecta,3. Stacking LR (LR + BETO),5,la,-0.017088981120643942
+tes_111,falsa que ninguno detecta,3. Stacking LR (LR + BETO),6,conjunto,-0.016524098479342136
+tes_111,falsa que ninguno detecta,3. Stacking LR (LR + BETO),7,desde,-0.01587725531128953
+tes_111,falsa que ninguno detecta,3. Stacking LR (LR + BETO),8,San,-0.01538740556046383
+tes_111,falsa que ninguno detecta,3. Stacking LR (LR + BETO),9,que,0.011693292630887113
+tes_111,falsa que ninguno detecta,3. Stacking LR (LR + BETO),10,aunque,-0.011527457974286615
+tes_111,falsa que ninguno detecta,3. Stacking LR (LR + BETO),11,provincias,-0.01039421553256888
+tes_111,falsa que ninguno detecta,3. Stacking LR (LR + BETO),12,ya,0.005525213590147692
+tes_111,falsa que ninguno detecta,E3 / E4 (pesos no negativos),1,NUMBER,-0.10443831795867989
+tes_111,falsa que ninguno detecta,E3 / E4 (pesos no negativos),2,Más,-0.0940593638860723
+tes_111,falsa que ninguno detecta,E3 / E4 (pesos no negativos),3,en,-0.05941344310854711
+tes_111,falsa que ninguno detecta,E3 / E4 (pesos no negativos),4,de,-0.0338103220168234
+tes_111,falsa que ninguno detecta,E3 / E4 (pesos no negativos),5,registran,-0.02928983866417107
+tes_111,falsa que ninguno detecta,E3 / E4 (pesos no negativos),6,la,-0.027117673716294893
+tes_111,falsa que ninguno detecta,E3 / E4 (pesos no negativos),7,sábado,-0.026012143588477383
+tes_111,falsa que ninguno detecta,E3 / E4 (pesos no negativos),8,coronavirus,-0.02573355041954411
+tes_111,falsa que ninguno detecta,E3 / E4 (pesos no negativos),9,Llobregat,-0.022468004332400694
+tes_111,falsa que ninguno detecta,E3 / E4 (pesos no negativos),10,infección,-0.016772173475144515
+tes_111,falsa que ninguno detecta,E3 / E4 (pesos no negativos),11,delante,-0.009255869389711525
+tes_111,falsa que ninguno detecta,E3 / E4 (pesos no negativos),12,se,0.0003500767454470323
+tes_142,verdadera que los tres marcan como falsa,3. Stacking LR (LR + BETO),1,que,0.007119423444062843
+tes_142,verdadera que los tres marcan como falsa,3. Stacking LR (LR + BETO),2,Pues,0.0060599296969680635
+tes_142,verdadera que los tres marcan como falsa,3. Stacking LR (LR + BETO),3,medios,0.005847486364477674
+tes_142,verdadera que los tres marcan como falsa,3. Stacking LR (LR + BETO),4,Todo,0.005730299629615367
+tes_142,verdadera que los tres marcan como falsa,3. Stacking LR (LR + BETO),5,peligrosos,0.005499155613486915
+tes_142,verdadera que los tres marcan como falsa,3. Stacking LR (LR + BETO),6,en,-0.0054143390965889
+tes_142,verdadera que los tres marcan como falsa,3. Stacking LR (LR + BETO),7,pasado,-0.004681924757850014
+tes_142,verdadera que los tres marcan como falsa,3. Stacking LR (LR + BETO),8,Francisco,-0.004572576213303553
+tes_142,verdadera que los tres marcan como falsa,3. Stacking LR (LR + BETO),9,ha,0.004045422076179803
+tes_142,verdadera que los tres marcan como falsa,3. Stacking LR (LR + BETO),10,agosto,-0.0021382711946581015
+tes_142,verdadera que los tres marcan como falsa,3. Stacking LR (LR + BETO),11,desde,-0.002047328717366528
+tes_142,verdadera que los tres marcan como falsa,3. Stacking LR (LR + BETO),12,una,-0.001751986923784621
+tes_142,verdadera que los tres marcan como falsa,E3 / E4 (pesos no negativos),1,que,0.008784155519817607
+tes_142,verdadera que los tres marcan como falsa,E3 / E4 (pesos no negativos),2,en,-0.006197937459539119
+tes_142,verdadera que los tres marcan como falsa,E3 / E4 (pesos no negativos),3,Todo,0.0061555568041848484
+tes_142,verdadera que los tres marcan como falsa,E3 / E4 (pesos no negativos),4,se,0.00518081273493978
+tes_142,verdadera que los tres marcan como falsa,E3 / E4 (pesos no negativos),5,Pues,0.004358923873506317
+tes_142,verdadera que los tres marcan como falsa,E3 / E4 (pesos no negativos),6,de,0.0039580525450518544
+tes_142,verdadera que los tres marcan como falsa,E3 / E4 (pesos no negativos),7,operaciones,0.003878781130965396
+tes_142,verdadera que los tres marcan como falsa,E3 / E4 (pesos no negativos),8,medios,0.002809805002369363
+tes_142,verdadera que los tres marcan como falsa,E3 / E4 (pesos no negativos),9,desembocó,-0.0018364101125991194
+tes_142,verdadera que los tres marcan como falsa,E3 / E4 (pesos no negativos),10,una,-0.000590595694087093
+tes_142,verdadera que los tres marcan como falsa,E3 / E4 (pesos no negativos),11,Fabrizzio,-0.0004589795703149856
+tes_142,verdadera que los tres marcan como falsa,E3 / E4 (pesos no negativos),12,comenzó,-0.00024901633688468585
+tes_146,verdadera que los tres aciertan,3. Stacking LR (LR + BETO),1,NUMBER,-0.051947101244884566
+tes_146,verdadera que los tres aciertan,3. Stacking LR (LR + BETO),2,en,-0.021717223437293556
+tes_146,verdadera que los tres aciertan,3. Stacking LR (LR + BETO),3,domingo,-0.020219575773752614
+tes_146,verdadera que los tres aciertan,3. Stacking LR (LR + BETO),4,propuso,-0.01342028999831933
+tes_146,verdadera que los tres aciertan,3. Stacking LR (LR + BETO),5,ecuatorianos,-0.013398259410616863
+tes_146,verdadera que los tres aciertan,3. Stacking LR (LR + BETO),6,sociales,-0.013329557823362538
+tes_146,verdadera que los tres aciertan,3. Stacking LR (LR + BETO),7,dijo,-0.012769517747377173
+tes_146,verdadera que los tres aciertan,3. Stacking LR (LR + BETO),8,planes,-0.009527696729255297
+tes_146,verdadera que los tres aciertan,3. Stacking LR (LR + BETO),9,sus,-0.009449738690097404
+tes_146,verdadera que los tres aciertan,3. Stacking LR (LR + BETO),10,etapa,-0.007665852071291125
+tes_146,verdadera que los tres aciertan,3. Stacking LR (LR + BETO),11,mínimo,-0.004024443783194247
+tes_146,verdadera que los tres aciertan,3. Stacking LR (LR + BETO),12,que,0.003821641591120886
+tes_146,verdadera que los tres aciertan,E3 / E4 (pesos no negativos),1,domingo,-0.14929833191841163
+tes_146,verdadera que los tres aciertan,E3 / E4 (pesos no negativos),2,Tras,-0.13400202858798185
+tes_146,verdadera que los tres aciertan,E3 / E4 (pesos no negativos),3,NUMBER,-0.0964651020744603
+tes_146,verdadera que los tres aciertan,E3 / E4 (pesos no negativos),4,este,-0.09319620514614858
+tes_146,verdadera que los tres aciertan,E3 / E4 (pesos no negativos),5,en,-0.04996686384271184
+tes_146,verdadera que los tres aciertan,E3 / E4 (pesos no negativos),6,una,0.04595423152964922
+tes_146,verdadera que los tres aciertan,E3 / E4 (pesos no negativos),7,abril,-0.026240276549784374
+tes_146,verdadera que los tres aciertan,E3 / E4 (pesos no negativos),8,casado,0.009550910716427089
+tes_146,verdadera que los tres aciertan,E3 / E4 (pesos no negativos),9,adelante,-0.007931288010465814
+tes_146,verdadera que los tres aciertan,E3 / E4 (pesos no negativos),10,te,0.006142355054490754
+tes_146,verdadera que los tres aciertan,E3 / E4 (pesos no negativos),11,correísmo,-0.0025742964255268588
+tes_146,verdadera que los tres aciertan,E3 / E4 (pesos no negativos),12,saluda,-0.0023116351783763808
